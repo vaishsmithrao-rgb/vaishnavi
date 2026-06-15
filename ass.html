@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fresh Fruits Shop - Roll No 48</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+nav{
+    display: flex;
+    flex-direction: column;
+    background-color: #ff9800;
+    padding: 10px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+@media(min-width:768px){
+    nav{
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+    }
+}
+
+h1{
+    color: #ff5722;
+}
+
+img{
+    width: 300px;
+    border-radius: 50px;
+    margin: 20px;
+}
+
+video{
+    width: 50vw;
+    background-color: purple;
+    padding: 10px;
+    
+}
+iframe{
+    width: 50vw;
+    height: 300px;
+    border: 10px solid purple;
+}
+
+table{
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th{
+    background-color: #ffe0b2;
+}
+
+button{
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: darkviolet;
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 20px;
+}
+
+.grid-item{
+    background-color: orange;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+@media(max-width:767px){
+    .grid-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+</style>
+
+</head>
+<body>
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Fruits</a>
+    <a href="#">Contact</a>
+</nav>
+
+
+<h1>Fresh Fruits Shop - Roll No 48</h1>
+
+<img src="https://images.unsplash.com/photo-1619566636858-adf3ef46400b?w=500"
+     alt="Fresh Fruits">
+
+
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PBhWlr3nMBY?rel=0" allowfullscreen></iframe>
+</div>
+
+<table>
+    <tr>
+        <th>1</th>
+        <th>2</th>
+        <th>3</th>
+    </tr>
+
+    <tr>
+        <td>Mango</td>
+        <td>orange</td>
+        <td>banana</td>
+    </tr>
+
+    <tr>
+        <td>gauva</td>
+        <td>papaya</td>
+        <td>jackfruit</td>
+    </tr>
+</table>
+
+<button>Order Now</button>
+<div class="grid-container">
+    <div class="grid-item">1</div>
+    <div class="grid-item">2</div>
+    <div class="grid-item">3</div>
+    <div class="grid-item">4</div>
+    <div class="grid-item">5</div>
+    <div class="grid-item">6</div>
+    <div class="grid-item">7</div>
+    <div class="grid-item">8</div>
+</div>
+
+</body>
+</html>
